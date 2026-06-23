@@ -230,8 +230,8 @@
     <section id="about" class="py-32 px-6 lg:px-12 relative">
         <div class="max-w-[85rem] mx-auto grid lg:grid-cols-12 gap-16 lg:gap-24 items-center">
             
-            <!-- Portrait Image -->
-            <div class="lg:col-span-5 relative reveal">
+            <!-- Desktop Portrait Image (Hidden on Mobile) -->
+            <div class="hidden lg:block lg:col-span-5 relative reveal">
                 <div class="relative rounded-t-full rounded-b-3xl overflow-hidden shadow-img img-wrapper border-8 border-white group">
                     <img src="https://raw.githubusercontent.com/agelmet/XATZIXARALAMPOU/refs/heads/main/her2.JPG" 
                          alt="Πορτρέτο Χρύσας Χατζηχαραλάμπου" 
@@ -248,10 +248,23 @@
                 <h2 class="text-4xl md:text-5xl font-serif text-lux-dark mb-8 leading-tight">
                     Η Χρύσα Χατζηχαραλάμπου
                 </h2>
+                
                 <div class="space-y-6 text-lg text-lux-dark/80 font-light leading-relaxed">
                     <p>
                         Είναι ψυχολόγος, απόφοιτη του Αριστοτελείου Πανεπιστημίου Θεσσαλονίκης, με άδεια ασκήσεως επαγγέλματος [Αρ. Αδείας: 87457 (3820)]. Έχει πραγματοποιήσει μεταπτυχιακές σπουδές στη Συνθετική Ψυχοθεραπεία από το University of Derby, ενώ παράλληλα εξειδικεύεται στη Συστημική Συμβουλευτική και Ψυχοθεραπεία (Κε.Σ.Με.Θ.).
                     </p>
+
+                    <!-- Mobile Portrait Image (Injected here only on mobile) -->
+                    <div class="block lg:hidden relative my-10">
+                        <div class="relative rounded-t-full rounded-b-3xl overflow-hidden shadow-img border-8 border-white group">
+                            <img src="https://raw.githubusercontent.com/agelmet/XATZIXARALAMPOU/refs/heads/main/her2.JPG" 
+                                 alt="Πορτρέτο Χρύσας Χατζηχαραλάμπου" 
+                                 class="w-full max-w-[400px] mx-auto h-auto object-cover">
+                            <div class="absolute inset-0 bg-lux-dark/10"></div>
+                        </div>
+                        <div class="absolute -bottom-6 right-0 w-32 h-32 bg-lux-peach/30 rounded-full blur-2xl z-[-1]"></div>
+                    </div>
+
                     <p>
                         Ξεκίνησε την κλινική της πρακτική στο τμήμα των Α’ Οξέων του Ψυχιατρικού Νοσοκομείου Θεσσαλονίκης. Μετά την ολοκλήρωση των προπτυχιακών σπουδών της, εστίασε το επιστημονικό της ενδιαφέρον στην ηλικιακή ομάδα των παιδιών και των εφήβων. Η ενασχόλησή της με αυτό το πεδίο ενισχύθηκε μέσα από συνεχή επιμόρφωση σε σεμινάρια και συνέδρια, καθώς και μέσα από τη συνεργασία της με εξειδικευμένα κέντρα ειδικών θεραπειών, όπου ανέλαβε τη θεραπευτική υποστήριξη παιδιών και εφήβων.
                     </p>
